@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "sardek.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "frame.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    { "src": "/", "dest": "/frame.html" }
+  ]
+}
